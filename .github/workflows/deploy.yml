@@ -35,6 +35,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - run: ls -al
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
